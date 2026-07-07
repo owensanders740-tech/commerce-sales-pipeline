@@ -12,7 +12,7 @@ The main processing engine (`process_sales.py`) handles data transformation usin
 2. **Data Validation:** Drops customer rows lacking valid email addresses to optimize campaign delivery and lower marketing software costs.
 3. **Metric Engineering:** Computes **Average Order Value (AOV)** per user ($\text{AOV} = \frac{\text{Total Spent}}{\text{Total Orders}}$).
 4. **Behavioral Segmentation:** Uses conditional evaluation logic to classify buyers:
-   * **VIP Customer:** Cumulative spend $\ge \$500$
+   * **VIP Customer:** Cumulative spend $> \$500$
    * **Standard Customer:** Cumulative spend $< \$500$
 5. **Operational Sort:** Organizes lists from maximum lifetime value downward to highlight top store earners.
 
